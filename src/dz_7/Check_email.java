@@ -11,7 +11,6 @@ public class Check_email {
         String email3 = "anna17@ukr.net";
         System.out.println(domain(email1,email2, email3));
 
-
     }
     public static String domain(String email1, String email2, String email3){
         String regex = "(.*)@(.*)";
@@ -30,8 +29,7 @@ public class Check_email {
         matcher3.find();
         String domain3 = matcher3.group(2);
 
-        String a = domain1 + ", " + domain2 + ", " + domain3;
-        return a ;
+        return domain1 + ", " + domain2 + ", " + domain3;
     }
 
 
