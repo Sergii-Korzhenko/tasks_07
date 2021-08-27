@@ -3,7 +3,7 @@ package dz_7;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Check_email {
+public class CheckEmail {
     public static void main(String[] args) {
 
         String email1 = "2343gus@gmail.com";
